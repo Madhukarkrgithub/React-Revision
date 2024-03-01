@@ -1,17 +1,10 @@
 # React Coffee Mock Server OnClick
 
 
-## Understanding Component Structure
-
-- pages
-  - Coffee.jsx
-- component
-  - CoffeeCard.jsx
-- App
 
 ## App.js
 
-- show the heading `Coffee Store Catalogue` in the h1 tag
+- show the heading `Coffee Store Catalogue` 
 
 ## Coffee.jsx
 
@@ -22,13 +15,6 @@
 
 ## CoffeeCard.jsx
 
-- every coffee card should have the following information
-- div inside the below data is shown
-- show the image in `img` tag
-- show title in h2 with classname `title`
-- show the price in a p tag with classname `price`
-- show the description in a p tag with classname `description`
-- show ingredient in li inside ul (classname = `ingredient`)
 
 <img width="1719" alt="Screenshot 2022-11-25 at 12 05 27 PM" src="https://user-images.githubusercontent.com/103956933/225320175-df814c32-53b6-45de-85d3-ca0a5065c6cc.png">
 

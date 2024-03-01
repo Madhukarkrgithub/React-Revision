@@ -1,0 +1,29 @@
+.heading{
+    text-align: center;
+}
+.container{
+    text-align: center;
+}
+.btn{
+    background-color: #2196f3;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: large;
+    margin: 10px;
+}
+.coffee_container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+}
+.coffeeCard-container{
+    display: flex;
+    border: 1px solid black;
+    margin: 10px;
+}
+.card{
+    text-align: left;
+    margin-left: 20px;
+}
