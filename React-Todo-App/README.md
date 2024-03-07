@@ -1,49 +1,5 @@
 ## React-Todo-App-with-Pagination-and-mock-server
 
-#### Problem Statement
-
-Create the following application with the boilerplate code provided.
-
-## Submission Instructions [Please note]
-
-## Maximum Marks - 15
-
-- The Submission should not contain spaces, for example /rct-101 folder/eval will not work
-- Do not push node_modules and package_lock.json to github
-
-```
- ✅ Able to submit the app - 1 mark ( minimum score )
- ✅ should have a basic structure - 1 mark
- ✅ Previous and Next page buttons should be disabled as per the problem statement and on clicking on it appropriate network request is made and the current page number is displayed - 1 mark
- ✅ select tag on selecting displaying the correct number of todos - 1 mark
- ✅ Check all the todos are visible with correct html elements - 1 mark
- ✅ Able to add the new todo and data is updated on DOM in real time with POST and GET requests - 2 mark
- ✅ Able to toggle the status of the todo - 2 mark
- ✅ Able to DELETE the todo - 2 mark
- ✅ Loading... should be visible between req and res from json-server - 2 mark
- ✅ Something went wrong.. should be visible between req and res from json-server - 2 mark
-```
-
-## Installation
-
-- Use node version(LTS) should be `v16.16.0`
-- Don't change/override package.json
-- please make sure you do not push package-lock.json
-
-- Download and unzip the boilerplate file and then copy the "**contents**" of the unzipped file in the Masai Folder.
-- Navigate to the Masai Folder, in VS Code.
-- Run the following commands inside,
-  - `npm install --engine-strict`
-  - `npm start`
-  - `npm run server` -> to start the json-server
-- **_Note_**:
-
-1. Make sure that the json-server is up and running at port `8080`
-2. Create a .env file. Include `REACT_APP_JSON_SERVER_PORT=8080` in it
-3. restart the react server
-4. Use `http://localhost:${process.env.REACT_APP_JSON_SERVER_PORT}` as the json-server url where ever you use `http://localhost:8080`
-
-### Not following the above instructions will lead your test cases to fail
 
 ### Understanding Component Structure
 ```
